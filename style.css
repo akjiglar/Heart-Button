@@ -1,0 +1,36 @@
+/* button style */
+button {
+  /* button size */
+  width: 100px;
+  height: 40px;
+  /* button border */
+  border: 1px solid black;
+  /* white background */
+  background-color: white;
+  /* this combination is for centering the button on the screen */
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  /* removes the button backlight when clicked */
+  outline: none;
+  /* smooth transitions on hover */
+  transition: all .4s ease;
+  /* font settings */
+  font-family: 'Arial Narrow', sans-serif;
+  font-size: 20px;
+}
+
+/* styles for button on hover */
+button:hover {
+  /* type of cursor on hover */
+  cursor: pointer;
+  /* crimson shadow */
+  box-shadow: 4px 4px crimson;
+}
+.clicked {
+  /* background-color */
+  background-color: black;
+  /* color—for text color */
+  color: white;
+}
